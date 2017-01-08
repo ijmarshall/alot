@@ -34,7 +34,7 @@ class SubcommandOptions(usage.Options):
         return optstr
 
     def opt_version(self):
-        print alot.__version__
+        print(alot.__version__)
         sys.exit(0)
 
 
