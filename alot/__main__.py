@@ -101,7 +101,7 @@ class Options(usage.Options):
                    ['compose', None, ComposeOptions, "compose a new message"]]
 
     def opt_version(self):
-        print alot.__version__
+        print(alot.__version__)
         sys.exit(0)
 
 
